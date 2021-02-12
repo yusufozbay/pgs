@@ -1,0 +1,66 @@
+<script type="application/ld+json">
+	 {
+			 "@context": "http://schema.org",
+             "@graph":[
+             {
+								 "@type": "Organization",
+								 "url": "https:\/\/www.flypgs.com\/",
+								 "@id":"https:\/\/www.flypgs.com\/",
+								 "name": "{{Name}}",
+								 "legalName": "{{Firma Resmi Adı}}",
+								 "description": "{{Meta Description of Homepage}}",
+								 "logo": "{{Logo}}", //https:\/\/www.flypgs.com\/Assets\/Web\/build\/assets\/images\/2018\/logo.svg
+								 "sameAs": [
+										 "{{Facebook Page URL}}", // i.e https:\/\/www.facebook.com\/
+										 "{{Twitter Profile URL}}", // i.e https:\/\/www.twitter.com\/ucurbenipegasus
+										 "{{Instagram Profile URL}}", // i.e https:\/\/www.instagram.com\/
+										 "{{Google Maps Share URL}}", // i.e https:\/\/g.page\/
+										 "{{Crunchbase.com Company URL}}", // i.e https:\/\/www.crunchbase.com\/organization\/flypgs
+										 "{{Trustpilot Profile URL}}", //i.e https:\/\/www.trustpilot.com\/review\/flypgs
+										 "{{LinkedIn Profile URL}}", // i.e https:\/\/www.linkedin.com\/company\/pegasus-airlines\/
+										 "{{Youtube Chanel URL}}", // i.e https:\/\/www.youtube.com\/user\/flymepegasus
+										 "{{Wikipedia Page URL}}", // i.e https:\/\/tr.wikipedia.org\/wiki\/Pegasus_Hava_Yollar%C4%B1
+										 "{{Entity URL}}", // i.e https://www.enuygun.com/ucak-bileti/pegasus/
+										 "{{IATA URL}}", // i.e https://www.iata.org/en/about/members/airline-list/pegasus-airlines/378/
+										 "{{Entity URL}}", // i.e https://www.ucuzabilet.com/pegasus
+										 "{{Entity URL}}", // i.e https://www.turna.com/ucak-bileti/pegasus
+										 "{{Entity URL}}", // i.e https://www.obilet.com/ucak-firmalari/pegasus-airlines
+										 "{{Entity URL}}", // i.e https://www.ucakbileti.com/pegasus-ucak-bileti
+										 "{{Entity URL}}", // i.e https://www.biletall.com/ucak-bileti/pegasus
+										 "{{Entity URL}}", // i.e https://www.skyscanner.com.tr/havayolu_sirketi/havayolu_sirketi-pegasus-airlines-pc.html
+										 "{{Entity URL}}", // i.e https://www.sabihagokcen.aero/PEGASUS
+										 "{{Entity URL}}", // i.e https://finans.mynet.com/borsa/hisseler/pgsus-pegasus/
+										 "{{Entity URL}}", // i.e https://tr.investing.com/equities/pegasus-hava-tasimaciligi
+										 "{{Entity URL}}" // i.e https://www.kap.org.tr/tr/sirket-bilgileri/ozet/1710-pegasus-hava-tasimaciligi-a-s
+								 ],
+								 "founder":{
+									 "@id":"",
+									 "name":"{{Founder Name}}" // i.e Mehmet Tevfik Nane
+								 		 },
+								"foundingDate": "12 Ocak 1990",
+								 "address":
+								 		 {
+											 	 "@type":"PostalAddress",
+												 "addressLocality":"{{Şehir}}",
+												 "addressCountry" : "{{Ülke}}",
+												 "postalCode":"{{Posta Kodu}}",
+												 "streetAddress": "{{Google Map Adres}}"
+										 },
+								 "contactPoint": [
+										 {
+												 "@type": "ContactPoint",
+												 "telephone": "{{Telefon}}",
+												 "contactType": "customer service"
+										 },
+										 {
+												 "@type": "ContactPoint",
+												 "email": "mailto:{{Mail Adresi}}",
+												 "telephone": "+90 216 606 44 45",
+												 "url": "{{İletişim Sayfası URL}}", // i.e https:\/\/www.flypgs.com\/iletisim\/cagri-merkezi
+												 "contactType": "sales"
+										 }
+								 ]
+           		}
+         	]
+	 }
+	 </script>
