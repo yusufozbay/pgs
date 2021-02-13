@@ -1,0 +1,56 @@
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		"name": "{{Sayfa Adı}}", // İstanbul Uçak Bileti
+		"description": "{{Meta Descripiton}}",
+		"url": "{{Sayfa URL}}", // https://www.flypgs.com/sehirler/istanbul-ucak-bileti
+		"breadcrumb": {
+			"@type": "BreadcrumbList",
+			"numberOfItems": "{{Number Of Items}}", //Breadcrumb Öğe Sayısı
+			"itemListElement":[
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"item": {
+							"name": "Uçak Bileti",
+							"@id": "https://www.flypgs.com/"
+						}
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"item": {
+							"name": "{{Breadcrumb Item 2 Name}}", // Türkiye Uçak Bileti
+							"@id": "{{Breadcrumb Item 2 URL}}" // https://www.flypgs.com/ulkeler/turkiye-ucak-bileti
+						}
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"item": {
+							"name": "{{{{Breadcrumb Item 3 Name}}}}", // İstanbul Uçak Bileti
+							"@id": "{{Breadcrumb Item 3 URL}}" //https://www.flypgs.com/sehirler/istanbul-ucak-bileti
+						}
+					}
+			]
+		},
+		"offers": [ // Uçuşlar sayfalarda gösterilmeye başlandığında Offer
+
+    				{
+          			"@type": "Offer",
+          			"name": "{{Offer Name}}", // İstanbul - Ankara Uçak Bileti
+          			"url": "{{Offer URL}}",
+								"price": "{{Offfer Price}}",
+								"priceCurrency": "{{priceCurrency}}"
+        			} ,
+    				{
+							"@type": "Offer",
+							"name": "{{Offer Name}}", // İstanbul - Ankara Uçak Bileti
+							"url": "{{Offer URL}}",
+							"price": "{{Offfer Price}}",
+							"priceCurrency": "{{priceCurrency}}"
+        			}
+		]
+	}
+</script>
