@@ -1,0 +1,72 @@
+<script type="application/ld+json">
+    {
+    "@context":"http://schema.org",
+    "@type":"MobileApplication",
+    "name":"{{App Name}}", // Pegasus - Uçak Bileti
+    "operatingSystem":[
+    "Android"
+    ],
+    "downloadUrl":[
+    "{{Google Play Store App URL}}" // https://play.google.com/store/apps/details?id=com.pozitron.pegasus&hl=tr
+    ],
+    "description":"{{App Description}}",
+    "applicationCategory":"http://schema.org/MobileApplication",
+    "screenshot":[
+    "{{App Image URL}}", // https://play-lh.googleusercontent.com/wsWv7JCFvQZUwAwINVqBD6iGNMLvJhcFyKhEghDX60-ZLzTI-U56VW8fzeaF0zu5rA=w1440-h620-rw
+		"{{App Image URL}}",
+		"{{App Image URL}}",
+		"{{App Image URL}}",
+		"{{App Image URL}}",
+		"{{App Image URL}}",
+		"{{App Image URL}}",
+		"{{App Image URL}}"
+    ],
+    "offers":{
+    "@type":"Offer",
+    "price":"0.00",
+    "priceCurrency":"{{Currency}}"
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "ratingCount": "{{Review Count}}", // 45.334
+    "ratingValue": "{{Review Rating}}" // 4.1
+    }
+    }
+</script>
+<script type="application/ld+json">
+    {
+    "@context":"http://schema.org",
+    "@type":"MobileApplication",
+    "name":"{{App Name}}",
+    "operatingSystem":[
+    "iOS"
+    ],
+    "description":"Pegasus uçak bileti fiyatı sorgula, uçuş ara ve ucuz uçak bileti bul. İndirimli uçak bileti fiyatları en uygun bilet kampanyaları sunan flypgs.com'da. Hemen tıkla!",
+    "downloadUrl":[
+    "{{App Store App URL}}" // https://apps.apple.com/tr/app/pegasus-u%C3%A7ak-bileti/id723672499?l=tr
+    ],
+    "applicationCategory":"http://schema.org/MobileApplication",
+    "screenshot":[
+			"{{App Image URL}}", // https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/69/06/41/690641aa-19ec-54f8-b297-b12dcd7c1539/541ee9c5-7e03-4814-a950-4c8eb190a8de_TR-01_6_5.jpg/230x0w.webp
+			"{{App Image URL}}",
+			"{{App Image URL}}",
+			"{{App Image URL}}",
+			"{{App Image URL}}",
+			"{{App Image URL}}",
+			"{{App Image URL}}",
+			"{{App Image URL}}"
+    ],
+    "offers":{
+    "@type":"Offer",
+    "price":"0.00",
+    "priceCurrency":"{{Currency}}"
+    },
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+		"ratingCount": "{{Review Count}}", // 229.6K
+    "ratingValue": "{{Review Rating}}" // 4.6
+    }
+    }
+</script>
